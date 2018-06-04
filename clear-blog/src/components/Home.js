@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
+import Header from './Header';
+
 
 class Home extends Component{
     render(){
         return(
             <div>
-                <h1>This is home page</h1>
+                <Header heading="Clean Blog" subHeading="A Blog Theme by Start Bootstrap"/>
             </div>
         );
     }

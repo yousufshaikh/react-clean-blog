@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import Header from './Header';
 
 class About extends Component{
     render(){
         return(
             <div>
-                <h1>This is about page</h1>
+                <Header heading="About" subHeading="This is what I do."/>
             </div>
         );
     }
