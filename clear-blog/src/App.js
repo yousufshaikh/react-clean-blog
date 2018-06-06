@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import SamplePost from './components/SamplePost';
 import Error from './components/Error';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -21,8 +22,10 @@ class App extends Component {
             <Route path="/sample_post" component={SamplePost}></Route>
             <Route component={Error}></Route>
           </Switch>
+          <Footer/>
         </div>
       </BrowserRouter>
+
     );
   }
 }
