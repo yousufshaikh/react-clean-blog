@@ -17,6 +17,10 @@
     position: relative;
     background-size: cover;
 }
+.mx-auto{
+    margin-left: 190px;
+    margin-right: 190px;
+}
 .site-heading{
     text-align: center;
     padding: 200px 0;
@@ -47,4 +51,12 @@
     width:100%;
     background-color: #212529;
     opacity: .5;
+}
+.post-preview a{
+    color: #212529;
+    text-decoration:none;
+}
+.post-title{
+    font-size: 36px;
+    font-weight: 800;
 }
