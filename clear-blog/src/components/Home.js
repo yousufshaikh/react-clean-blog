@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './Home.css'
 import Header from './Header';
 import HomeLink from './HomeLinks';
 import OlderPostBtn from './OlderPostBtn';
